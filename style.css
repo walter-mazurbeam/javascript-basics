@@ -1,25 +1,45 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .container {
  background-color: purple;
- margin: 10px auto;
+ padding: 10px;
+ }
+
+ .container * {
+   border-radius: 25px;
+   padding: 5px;
  }
 
  .header{
   width: auto;
-  margin: 10 15;
+  margin-top: 10px;
   background-color: red;
  }
 
- .nav-bar * {
+ .nav-bar  {
    display: inline-block;
-   width: auto;
+   width: 200px;
    background-color: green;
+   margin-left: 10px;
+   padding-left: 20px;
+   vertical-align: top;
  }
 
  .main-content {
    display: inline-block;
+   width: 700px;
+   background-color: blue;
+   margin-left: 10px;
+
+ }
+
+ .footer {
+   background-color: green;
+ }
+
+ span {
+   color: purple;
  }
